@@ -29,7 +29,7 @@ function App() {
       {/* <Testimonials /> */}
       <Team />
       {/* <Pricing /> */}
-      <Newsletter />
+      {/* <Newsletter /> */}
       {/* <FAQ /> */}
       <Footer />
       <ScrollToTop />
