@@ -22,38 +22,34 @@ export const HeroCards = () => {
           <Avatar>
             <AvatarImage
               alt=""
-              src="https://github.com/shadcn.png"
+              src="https://media.licdn.com/dms/image/D5603AQHGijf1HW2B-A/profile-displayphoto-shrink_200_200/0/1695533277160?e=1722470400&v=beta&t=y-SddXSRVXzzQJpRqODlD3tPtEgzuDmgjyo4wBrGfC4"
             />
             <AvatarFallback>SH</AvatarFallback>
           </Avatar>
 
           <div className="flex flex-col">
-            <CardTitle className="text-lg">John Doe React</CardTitle>
-            <CardDescription>@john_doe</CardDescription>
+            <CardTitle className="text-lg">HLMelton</CardTitle>
+            <CardDescription>@HunterLMelton</CardDescription>
           </div>
         </CardHeader>
 
-        <CardContent>This landing page is awesome!</CardContent>
+        <CardContent>Current data visualization is just 2d storytelling.</CardContent>
       </Card>
 
       {/* Team */}
       <Card className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="mt-8 flex justify-center items-center pb-2">
           <img
-            src="https://i.pravatar.cc/150?img=58"
+            src="https://avatars.githubusercontent.com/u/152110700?s=200&v=4"
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
-          <CardTitle className="text-center">Leo Miranda</CardTitle>
-          <CardDescription className="font-normal text-primary">
-            Frontend Developer
-          </CardDescription>
+          <CardTitle className="text-center">Notivate</CardTitle>
         </CardHeader>
 
         <CardContent className="text-center pb-2">
           <p>
-            I really enjoy transforming ideas into functional software that
-            exceeds expectations
+            Your go-to drop in toolkit for data visualization in AR/VR
           </p>
         </CardContent>
 
@@ -61,7 +57,7 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa"
+              href="https://github.com/Notivate"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -71,7 +67,7 @@ export const HeroCards = () => {
               <span className="sr-only">Github icon</span>
               <GitHubLogoIcon className="w-5 h-5" />
             </a>
-            <a
+            {/* <a
               rel="noreferrer noopener"
               href="https://twitter.com/leo_mirand4"
               target="_blank"
@@ -90,9 +86,9 @@ export const HeroCards = () => {
                 <title>X</title>
                 <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
               </svg>
-            </a>
+            </a> */}
 
-            <a
+            {/* <a
               rel="noreferrer noopener"
               href="https://www.linkedin.com/"
               target="_blank"
@@ -103,7 +99,7 @@ export const HeroCards = () => {
             >
               <span className="sr-only">Linkedin icon</span>
               <Linkedin size="20" />
-            </a>
+            </a> */}
           </div>
         </CardFooter>
       </Card>
@@ -131,7 +127,7 @@ export const HeroCards = () => {
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Start Free Trial</Button>
+          <Button className="w-full">Start building</Button>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
@@ -160,10 +156,9 @@ export const HeroCards = () => {
             <LightBulbIcon />
           </div>
           <div>
-            <CardTitle>Light & dark mode</CardTitle>
+            <CardTitle>Visualize your data faster</CardTitle>
             <CardDescription className="text-md mt-2">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-              natusm.
+              Move from concept to MVP faster with extensible out of the box tooling 
             </CardDescription>
           </div>
         </CardHeader>

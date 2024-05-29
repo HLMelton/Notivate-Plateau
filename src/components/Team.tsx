@@ -23,60 +23,27 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://i.pravatar.cc/150?img=35",
-    name: "Emma Smith",
-    position: "Product Manager",
+    imageUrl: "https://media.licdn.com/dms/image/D5603AQFE8czU0Xe04w/profile-displayphoto-shrink_800_800/0/1699230785292?e=1722470400&v=beta&t=5XoXQAXgjigUbWpM73PugFK3fd_ZzevZxXAKwuiXaNQ",
+    name: "Banyar Shin",
+    position: "Co-Founder - User Interaction",
     socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
+      { name: "Linkedin", url: "https://www.linkedin.com/in/banyar-shin/" },
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "John Doe",
-    position: "Tech Lead",
+    imageUrl: "https://media.licdn.com/dms/image/D5603AQHGijf1HW2B-A/profile-displayphoto-shrink_200_200/0/1695533277160?e=1722470400&v=beta&t=y-SddXSRVXzzQJpRqODlD3tPtEgzuDmgjyo4wBrGfC4",
+    name: "Hunter Melton",
+    position: "Co-Founder - Infrastructure",
     socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
+      { name: "Linkedin", url: "https://www.linkedin.com/in/hunterlmelton/" },
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=36",
-    name: "Ashley Ross",
-    position: "Frontend Developer",
+    imageUrl: "https://media.licdn.com/dms/image/D5603AQGTTlLcMVwnUw/profile-displayphoto-shrink_800_800/0/1713330861071?e=1722470400&v=beta&t=LNqpMFeuZzsKSRYVyhvImkmm-LL8hf5Q5Ea_CAz0EqU",
+    name: "Vinh Pham",
+    position: "Co-Founder - Data Visualization",
     socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
-
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
-    ],
-  },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=17",
-    name: "Bruce Rogers",
-    position: "Backend Developer",
-    socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
+      { name: "Linkedin", url: "https://www.linkedin.com/in/vinh-x-pham/" },
     ],
   },
 ];
@@ -104,15 +71,16 @@ export const Team = () => {
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           Our Dedicated{" "}
         </span>
-        Crew
+        Team
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        From Hackathons to freelancing, our team has worked on several 
+        projects spanning from deploying serverless applications in the cloud, to 
+        developing pixel perfect frontends.
       </p>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-10">
         {teamList.map(
           ({ imageUrl, name, position, socialNetworks }: TeamProps) => (
             <Card
@@ -131,9 +99,9 @@ export const Team = () => {
                 </CardDescription>
               </CardHeader>
 
-              <CardContent className="text-center pb-2">
+              {/* <CardContent className="text-center pb-2">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </CardContent>
+              </CardContent> */}
 
               <CardFooter>
                 {socialNetworks.map(({ name, url }: SociaNetworkslProps) => (

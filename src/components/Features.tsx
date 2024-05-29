@@ -18,35 +18,35 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "Multi-platform availability",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Platform compatability a concer? Don't worry, we support most modern development engines",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "Drop in tooling for AR/VR",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Seamless integration with your current project's requirements, regardless of dimensionality.",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "Extensibility",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Have the availability to extend your assets to suit your specific use case with our extensibable libraries and assets",
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+  "Cross Platform Tooling",
+  // "Reviews",
+  // "Features",
+  // "Pricing",
+  // "Contact form",
+  // "Our team",
+  // "Responsive design",
+  // "Newsletter",
+  // "Minimalist",
 ];
 
 export const Features = () => {
@@ -56,9 +56,9 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        Development{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          made intuitive
         </span>
       </h2>
 
