@@ -122,7 +122,7 @@ export const HeroCards = () => {
           </div>
 
           <CardDescription>
-            Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
+            Basic assets and libraries to get you started with 2D graphics
           </CardDescription>
         </CardHeader>
 
